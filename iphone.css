@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Changa+One:ital@0;1&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(82, 4, 134);
+    padding: 20px;
+    position:sticky;
+}
+
+header li{
+    display: inline;
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+.nome-loja{
+    color: aliceblue;
+    font-family: "Changa One", sans-serif;
+    width: 400px;
+    font-style: italic; 
+}
+
+.sobre h1, .contato h2{
+    color:black;
+    font-family: "Changa One", sans-serif;
+    width: 400px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family:"Allerta", sans-serif;
+}
+
+.imagem1, .imagem2, .imagem3{
+    background-color: aliceblue;
+    border: 1px solid;
+    padding: 70px;
+    align-items: center;
+    box-shadow: 0px 0px 10px; 
+    border-radius: 10px;
+    width: 250px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem1 p, .imagem2 p, .imagem3 p, .sobre p {
+    font-family: "Changa One", sans-serif;
+}
+
+.imagem1 button, .imagem2 button, .imagem3 button{
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color:  rgba(82, 4, 134, 0.884);
+    color: aliceblue;
+    font-family:"Allerta", sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(116, 49, 241);
+}
+
+.iphone1, .iphone2{
+    width: 180px;
+}
+
+.iphone3{
+    width: 135px;
+}
+
+.compra{
+    display: flex;
+    justify-content: space-around;
+}
+
+.destaques{
+    display: flex;
+    justify-content: center;
+    font-family: "Changa One", sans-serif;
+    font-style: italic;
+    margin-top: 50px;
+    font-size: 20px;
+    border-bottom: 3px solid  rgba(82, 4, 134, 0.884);
+    margin-bottom: 10px;
+    
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.historia{
+    margin: 70px 0px;
+}
+
+.fotoloja{
+    width: 600px;
+    margin: 70px;
+}
+
+.contato h2{
+    white-space: nowrap;
+    margin: 50px 540px;
+}
+
+.contato input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    font-family:"Allerta", sans-serif;
+    cursor: pointer;
+}
+
+.login{
+    border: 1px solid;
+    padding: 100px;
+    align-items: center;
+    box-shadow: 0px 0px 4px; 
+    border-radius: 10px;
+    width: 250px;
+    margin: 50px 630px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(82, 4, 134);
+    padding: 20px;
+    position:sticky;
+    }
+
+.contato button{
+margin-top: 40px;
+margin-left: 60px;
+padding: 20px;
+border-radius: 5px;
+background-color:  rgba(82, 4, 134, 0.884);
+color: aliceblue;
+}
+
+.contato button:hover{
+    background-color: blueviolet;
+}
+
+footer a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family:"Allerta", sans-serif;
+}
